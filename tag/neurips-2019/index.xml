@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NeurIPS 2019 | Franz Scherr</title>
+    <link>https://www.franzscherr.com/tag/neurips-2019/</link>
+      <atom:link href="https://www.franzscherr.com/tag/neurips-2019/index.xml" rel="self" type="application/rss+xml" />
+    <description>NeurIPS 2019</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.franzscherr.com/media/icon_hu7fbe943e18af56879e4e944699134393_8517_512x512_fill_lanczos_center_3.png</url>
+      <title>NeurIPS 2019</title>
+      <link>https://www.franzscherr.com/tag/neurips-2019/</link>
+    </image>
+    
+    <item>
+      <title>Slow processes of neurons enable a biologically plausible approximation to policy gradient</title>
+      <link>https://www.franzscherr.com/publication/slow_processes_policy/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/slow_processes_policy/</guid>
+      <description>&lt;div id=&#34;presentation-embed-38924016&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://slideslive.com/embed_presentation.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  embed = new SlidesLiveEmbed(&#34;presentation-embed-38924016&#34;, {
+    presentationId: &#34;38924016&#34;,
+    autoPlay: false,
+    verticalEnabled: true,
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eligibility traces provide a data-inspired alternative to backpropagation through time</title>
+      <link>https://www.franzscherr.com/publication/eligibility_traces/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/eligibility_traces/</guid>
+      <description>&lt;div id=&#34;presentation-embed-38922692&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://slideslive.com/embed_presentation.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  embed = new SlidesLiveEmbed(&#34;presentation-embed-38922692&#34;, {
+    presentationId: &#34;38922692&#34;,
+    autoPlay: false,
+    verticalEnabled: true,
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

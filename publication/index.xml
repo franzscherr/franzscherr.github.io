@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Franz Scherr</title>
+    <link>https://www.franzscherr.com/publication/</link>
+      <atom:link href="https://www.franzscherr.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.franzscherr.com/media/icon_hu7fbe943e18af56879e4e944699134393_8517_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://www.franzscherr.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>2022 roadmap on neuromorphic computing and engineering</title>
+      <link>https://www.franzscherr.com/publication/roadmap/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of the computational strategy of a detailed laminar cortical microcircuit model for solving the image-change-detection task</title>
+      <link>https://www.franzscherr.com/publication/billeh_analysis/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/billeh_analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reservoirs learn to learn</title>
+      <link>https://www.franzscherr.com/publication/reservoir/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/reservoir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualizing a joint future of neuroscience and neuromorphic engineering</title>
+      <link>https://www.franzscherr.com/publication/visualizing/</link>
+      <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/visualizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A solution to the learning dilemma for recurrent networks of spiking neurons</title>
+      <link>https://www.franzscherr.com/publication/a_solution/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/a_solution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>One-shot learning with spiking neural networks</title>
+      <link>https://www.franzscherr.com/publication/one_shot/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/one_shot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slow processes of neurons enable a biologically plausible approximation to policy gradient</title>
+      <link>https://www.franzscherr.com/publication/slow_processes_policy/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/slow_processes_policy/</guid>
+      <description>&lt;div id=&#34;presentation-embed-38924016&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://slideslive.com/embed_presentation.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  embed = new SlidesLiveEmbed(&#34;presentation-embed-38924016&#34;, {
+    presentationId: &#34;38924016&#34;,
+    autoPlay: false,
+    verticalEnabled: true,
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eligibility traces provide a data-inspired alternative to backpropagation through time</title>
+      <link>https://www.franzscherr.com/publication/eligibility_traces/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/eligibility_traces/</guid>
+      <description>&lt;div id=&#34;presentation-embed-38922692&#34;&gt;&lt;/div&gt;
+&lt;script src=&#34;https://slideslive.com/embed_presentation.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  embed = new SlidesLiveEmbed(&#34;presentation-embed-38922692&#34;, {
+    presentationId: &#34;38922692&#34;,
+    autoPlay: false,
+    verticalEnabled: true,
+  });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neuromorphic Hardware Learns to Learn</title>
+      <link>https://www.franzscherr.com/publication/nmhw/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/nmhw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biologically inspired alternatives to backpropagation through time for learning in recurrent neural nets</title>
+      <link>https://www.franzscherr.com/publication/biologically_inspired/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/biologically_inspired/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
