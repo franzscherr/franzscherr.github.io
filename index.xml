@@ -5,12 +5,28 @@
     <link>https://www.franzscherr.com/</link>
       <atom:link href="https://www.franzscherr.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Franz Scherr</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.franzscherr.com/media/icon_hu7fbe943e18af56879e4e944699134393_8517_512x512_fill_lanczos_center_3.png</url>
       <title>Franz Scherr</title>
       <link>https://www.franzscherr.com/</link>
     </image>
+    
+    <item>
+      <title>Self-supervised Learning Through Efference Copies</title>
+      <link>https://www.franzscherr.com/publication/stec/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/stec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A data-based large-scale model for primary visual cortex enables brain-like robust and versatile visual processing</title>
+      <link>https://www.franzscherr.com/publication/versatile/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.franzscherr.com/publication/versatile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>2022 roadmap on neuromorphic computing and engineering</title>
