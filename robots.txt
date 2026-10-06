@@ -1,3 +1,2 @@
 User-agent: *
-
-Sitemap: https://www.franzscherr.com/sitemap.xml
+Allow: /
