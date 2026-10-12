@@ -38,7 +38,7 @@
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
-canvas#gl{position:fixed;inset:0;width:100vw;height:100vh;display:block;z-index:0;pointer-events:none}
+canvas#gl{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0;pointer-events:none}   /* tracks the visible area as phone toolbars show and hide */
 .vignette{position:fixed;inset:0;pointer-events:none;z-index:1;background:radial-gradient(ellipse at 50% 50%,transparent 55%,var(--vig) 100%)}
 /* text sits directly on the scene; a soft scrim from the left keeps it readable */
 .scrim{position:fixed;inset:0;pointer-events:none;z-index:1;background:linear-gradient(90deg,rgba(var(--shade),.82) 0%,rgba(var(--shade),.45) 38%,rgba(var(--shade),0) 62%);opacity:0;transition:opacity .5s}
@@ -47,7 +47,7 @@ a:hover{color:var(--acc)}
 a:focus-visible{outline:1px solid var(--acc);outline-offset:3px}
 
 /* ---------- overlay (annotations) ---------- */
-#ov{position:fixed;inset:0;z-index:4;pointer-events:none;width:100vw;height:100vh;overflow:hidden}
+#ov{position:fixed;inset:0;z-index:4;pointer-events:none;width:100%;height:100%;overflow:hidden}
 #ov svg{position:absolute;inset:0;width:100%;height:100%}
 .panel-mono{position:absolute;left:0;top:0;white-space:pre-wrap;font:400 11.5px/1.55 var(--mono);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-left:2px solid var(--acc);padding:9px 11px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);will-change:transform}
 #plan{width:250px;position:fixed;z-index:4;pointer-events:none;opacity:0}
@@ -1341,7 +1341,8 @@ let W = 1, H = 1, wide = true, dist = 4, baseX = 0, baseY = 0, shiftX = 0, shift
 const REF_AR = 1.6;   // compositions are designed at 16:10; narrower windows scale down instead of cropping
 let layouts = [];
 function resize() {
-  W = innerWidth; H = innerHeight; wide = W > 820 && W / H > 0.95;
+  // measure the canvas itself: on phones CSS viewport units and innerHeight disagree while the address bar is visible
+  W = canvas.clientWidth || innerWidth; H = canvas.clientHeight || innerHeight; wide = W > 820 && W / H > 0.95;
   const pr = Math.min(devicePixelRatio || 1, MOBILE ? 1.75 : 2);
   renderer.setPixelRatio(pr); renderer.setSize(W, H, false);
   makeTargets(Math.round(W * pr), Math.round(H * pr));
@@ -1619,6 +1620,7 @@ function frame(now) {
 }
 resize();
 addEventListener('resize', resize);
+new ResizeObserver(() => { if (canvas.clientWidth !== W || canvas.clientHeight !== H) resize(); }).observe(canvas);
 addEventListener('load', computeAnchors);
 if (REDUCED) { robotAt(3.1); addEventListener('scroll', () => requestAnimationFrame(frame), { passive: true }); frame(performance.now()); }
 else requestAnimationFrame(frame);
